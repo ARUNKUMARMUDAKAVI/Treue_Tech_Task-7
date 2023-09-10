@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #7300E6;
+    --secondary-color: #B366FF;
+    --white: #ffffff;
+    --blue: #0000ff;
+    --black: #000000;
+}
+
+form center {
+    > .container {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding-top: 1%;
+        background-color: var(--white);
+        margin-top: 5rem;
+        padding: 1rem 5rem;
+        border-radius: 2rem;
+
+        :nth-child(1) {
+            background-color: var(--white);
+            font-size: 3rem;
+            font-weight: bold;
+            padding-bottom: 1rem;
+        }
+
+        > input {
+            background-color: var(--white);
+            border-color: var(--primary-color);
+            border-radius: 2rem;
+            padding: .5rem .5rem .5rem .7rem;
+            margin: .5rem 0rem;
+            font-weight: bold;
+        }
+
+        > button {
+            width: 10vw;
+            align-self: center;
+            border-radius: 2rem;
+            padding: .5rem;
+            margin-bottom: .5rem;
+            border: none;
+            color: var(--white);
+            font-weight: bold;
+        }
+
+        :nth-child(5) {
+            background-color: var(--white);
+            color: var(--blue);
+        }
+    }
+}

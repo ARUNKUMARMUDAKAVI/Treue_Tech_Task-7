@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #7300E6;
+    --secondary-color: #B366FF;
+    --white: #ffffff;
+    --blue: #0000ff;
+    --black: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    > .items {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 0rem;
+
+        > li .navItem {
+            color: var(--white);
+            font-size: larger;
+        }
+        
+    }
+}

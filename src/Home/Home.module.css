@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 3rem 8rem 0rem 8rem;
+
+    :nth-child(1) {
+        font-size: 2rem;
+        padding: .7rem;
+        margin-right: 1rem;
+    }
+
+    :nth-child(2) {
+        border-radius: 20%;
+    }
+}
